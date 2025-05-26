@@ -25,7 +25,7 @@ conscientiousness is related to distinctions.
 Dataset
 
 Corpus: Corpus built on Harry Potter written by J.K. Rowling.
-With references from literetures on personalities of the characters, we will analyse the features to see if the results align with their personality and if the hypotheses are true.
+\b With references from literetures on personalities of the characters, we will analyse the features to see if the results align with their personality and if the hypotheses are true.
 The number of charcaters will be limited to 5 at most.
 Analysis
 
