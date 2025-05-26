@@ -1,5 +1,7 @@
 # Mini Data Science Project
-Expected Credits: 6 CPs Graded
+
+Expected Credits: 6 CPs
+
 Team members: Yifei Chen & Chi Kuan Lai (Jessica)
 
 Title: The Relations Between Personality and Language Use
