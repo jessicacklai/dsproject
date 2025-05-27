@@ -1,17 +1,17 @@
 # Mini Data Science Project
 
-Title: Personality and Language Use in Harry Potter Characters
+# Title: Personality and Language Use in Harry Potter Characters
 
 Team members: Yifei Chen & Chi Kuan Lai (Jessica)
 
 Expected Credits: 6 CPs
 
-Project Overview
+## Project Overview
 We explored the connection between personality traits and language use by analyzing seven main characters from the Harry Potter films: Albus Dumbledore, Harry Potter, Hermione Granger, Ron Weasley, Draco Malfoy, Severus Snape, and Lord Voldemort. Our investigation examined both word-level (lexical categories) and sentence-level (syntactic complexity) linguistic features in relation to the Big Five personality traits.
 
-Research Question: Do language variables reflect personality factors in Harry Potter characters as in previous LIWC studies?
+## Research Question: Do language variables reflect personality factors in Harry Potter characters as in previous LIWC studies?
 
-Hypotheses:
+##  Hypotheses:
 
 Sentence-level: Extroverts use more compound/complex sentences; introverts use simpler ones
 
@@ -19,13 +19,13 @@ Word-level: Specific correlations between personality traits and lexical categor
 
 Dataset: Dialogues from all eight Harry Potter films (originally planned for just the first film, but expanded for sufficient data)
 
-Analysis Methods:
+##  Analysis Methods:
 
 Word-level: EMPATH lexicon (free alternative to LIWC) supplemented with SpaCy for missing categories
 
 Sentence-level: SpaCy parsing for sentence structure analysis and complexity metrics
 
-Major Reference
+##  Major Reference
 
 Ginting, S. A. (2018). Syntactic complexity on extroverted and introverted Indonesian language learners' written products. International Journal of Education and Literacy Studies, 6(4), 101-106. https://doi.org/10.7575/aiac.ijels.v.6n.4p.101
 
