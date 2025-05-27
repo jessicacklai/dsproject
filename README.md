@@ -1,53 +1,40 @@
 # Mini Data Science Project
 
-Expected Credits: 6 CPs
+Title: Personality and Language Use in Harry Potter Characters
 
 Team members: Yifei Chen & Chi Kuan Lai (Jessica)
 
-Title: The Relations Between Personality and Language Use
+Expected Credits: 6 CPs
 
-Keywords LIWC, Personality, Literacy Text Analysis
+Project Overview
+We explored the connection between personality traits and language use by analyzing seven main characters from the Harry Potter films: Albus Dumbledore, Harry Potter, Hermione Granger, Ron Weasley, Draco Malfoy, Severus Snape, and Lord Voldemort. Our investigation examined both word-level (lexical categories) and sentence-level (syntactic complexity) linguistic features in relation to the Big Five personality traits.
 
-Research Question
-Do language variables of the LIWC refect personality factors as in previous LIWC studies?
+Research Question: Do language variables reflect personality factors in Harry Potter characters as in previous LIWC studies?
 
-Hypotheses
-Yes. More specifically (based on findings from previous studies):
+Hypotheses:
 
-Sentence-level:
-Extroverted people tend to use more compound sentences (CpdS) and compound complex sentences (CCS) while introverted people use more simple sentence (SS).
-Word-level:
-Neuroticism is correlated with immediacy.
-Extraversion is correlated with distinctions.
-Openness is correlated with immediacy and the social past.
-Agreeableness is related to immediacy.
-conscientiousness is related to distinctions.
-Dataset
+Sentence-level: Extroverts use more compound/complex sentences; introverts use simpler ones
 
-Corpus: Corpus built on Harry Potter written by J.K. Rowling.
-\b With references from literetures on personalities of the characters, we will analyse the features to see if the results align with their personality and if the hypotheses are true.
-The number of charcaters will be limited to 5 at most.
-Analysis
+Word-level: Specific correlations between personality traits and lexical categories
 
-This mini project is instuitively inspired by the previous work of Pennebaker and King (1999).
+Dataset: Dialogues from all eight Harry Potter films (originally planned for just the first film, but expanded for sufficient data)
 
-We will use LIWC (Linguistic Inquiry and Word Count) as a measure of personality by analysing the lines of selected characters.
+Analysis Methods:
 
-For personality, there are many classification methods, we will use the Big Five personality dimensions (Neuroticism/Stability, Extroversion, Openness, Agressableness, Conscientiousness, Openness) as it is widely applied in previous studies.
+Word-level: EMPATH lexicon (free alternative to LIWC) supplemented with SpaCy for missing categories
 
-A factor analysis of the 72 English LIWC variables provided four main factors:
+Sentence-level: SpaCy parsing for sentence structure analysis and complexity metrics
 
-Immediacy: first-persona singular pronouns, articles, long words, present tense, discrepancies.
-Distinctions: exclusiceness, tentativeness, negations, inclusive words.
-Social past: past tense, positive emotion words, social words.
-Rationalisation: insight, negative emotion words, causation words. In sum, we intend to explore the following factors and the according correlation, to see if it aligns with the previous findings.
-Immediacy: first-person singular, articles, words of ≥ 6 letters, present tense, discrepencies.
-Making distinctions: Exclusive, tentativity, negations, inclusive.
-The social past: past tense, social, positive emotion.
-Rationalisation: insight, causation, negative emotion.
 Major Reference
 
-Ginting, S. A. (2018). Syntactic Complexity on Extroverted and Introverted Indonesian Language Learners’ Written Products. International Journal of Education and Literacy Studies, 6(4), 101-. https://doi.org/10.7575/aiac.ijels.v.6n.4p.101
-Pennebaker, J. W., & King, L. A. (1999). Linguistic Styles: Language Use as an Individual Difference. Journal of Personality and Social Psychology, 77(6), 1296–1312. https://doi.org/10.1037/0022-3514.77.6.1296
-Pizzolli, D. & Strapparava, C. (2019). Personality Traits Recognition in Literary Texts. In Proceedings of the Second Workshop on Storytelling, pages 107–111, Florence, Italy. Association for Computational Linguistics. https://doi.org/10.18653/v1/W19-3411
-Additional Notes
+Ginting, S. A. (2018). Syntactic complexity on extroverted and introverted Indonesian language learners' written products. International Journal of Education and Literacy Studies, 6(4), 101-106. https://doi.org/10.7575/aiac.ijels.v.6n.4p.101
+
+Pennebaker, J. W., & King, L. A. (1999). Linguistic styles: Language use as an individual difference. Journal of Personality and Social Psychology, 77(6), 1296-1312. https://doi.org/10.1037/0022-3514.77.6.1296
+
+Pizzolli, D., & Strapparava, C. (2019). Personality traits recognition in literary texts. In Proceedings of the Second Workshop on Storytelling (pp. 107-111). Association for Computational Linguistics. https://doi.org/10.18653/v1/W19-3411
+
+Spitzley, L. A., Wang, X., Chen, X., Burgoon, J. K., Dunbar, N. E., & Ge, S. (2022). Linguistic measures of personality in group discussions. Frontiers in Psychology, 13, Article 887616. https://doi.org/10.3389/fpsyg.2022.887616
+
+Stening, R. Y., & Stening, B. W. (2020). "Magic and the mind": The impact of cultural and linguistic background on the perception of characters in Harry Potter. Children's Literature in Education, 51, 285-308. https://doi.org/10.1007/s10583-019-09393-6
+
+Yarkoni, T. (2010). Personality in 100,000 words: A large-scale analysis of personality and word use among bloggers. Journal of Research in Personality, 44(3), 363-373. https://doi.org/10.1016/j.jrp.2010.04.001
