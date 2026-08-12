@@ -1,6 +1,6 @@
 # Mini Data Science Project
 
-Title: Personality and Language Use in Harry Potter Characters
+# Title: Personality and Language Use in Harry Potter Characters
 
 ## Project Overview
 We explored the connection between personality traits and language use by analyzing seven main characters from the Harry Potter films: Albus Dumbledore, Harry Potter, Hermione Granger, Ron Weasley, Draco Malfoy, Severus Snape, and Lord Voldemort. Our investigation examined both word-level (lexical categories) and sentence-level (syntactic complexity) linguistic features in relation to the Big Five personality traits.
